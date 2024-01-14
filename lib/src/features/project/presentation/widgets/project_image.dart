@@ -90,17 +90,14 @@ class ProjectImage extends ConsumerWidget {
   Widget _buildScreenshotImage(BuildContext context) {
     final screenshotUrl = project.screenshotUrl;
     if (screenshotUrl == null) return const Icon(Icons.code);
-    return Image.network(
+    return Image.asset(
       screenshotUrl,
       fit: BoxFit.cover,
       cacheWidth: 1920,
-      loadingBuilder: (context, child, loadingProgress) {
-        if (loadingProgress != null) {
+      errorBuilder: (context, child, loadingProgress) {
           return const Center(
-            child: CircularProgressIndicator(),
+            child: Icon(Icons.android_rounded),
           );
-        }
-        return child;
       },
     );
   }

@@ -1,7 +1,7 @@
 {
     "name": "Youssef Aouadni",
-    "description": "Software Engineer",
-    "subDescription": "Technical Lead",
+    "description": "Ingénieur en logiciel",
+    "subDescription": "Chef technique",
     "contacts": [
         {
             "tooltip": "LinkedIn",
@@ -42,153 +42,221 @@
             "url": "https://drive.google.com/file/d/13t62MynE9GavlyrtHNM1ShdkdJT0bc0B/view?usp=sharing"
         }
     ],
-    "aboutDescription": "Bonjour ! Je m'appelle Aladdine, et je suis apprenti développeur en troisième année de Mobilité et Objets Connectés à l'ESGI Paris. Passionné par l'écosystème mobile, je combine mes études et mon expérience professionnelle pour créer des applications intuitives et riches en fonctionnalités.\nJ'aspire à mettre mes compétences au service de projets inspirants et challengeant.",
+    "aboutDescription": "Ingénieur en logiciel accompli avec un bilan éprouvé dans la création de solutions de haute qualité pour les applications mobiles natives et multiplateformes, ainsi que pour les applications web. Doté d'une compréhension approfondie des méthodologies de développement logiciel, j'apporte une expertise dans la traduction de concepts complexes en logiciels fonctionnels et conviviaux. Ma passion pour l'innovation et mon engagement envers l'excellence me poussent à livrer constamment des résultats impactants dans des environnements de développement dynamiques.",
     "experiences": [
         {
-            "job": "Développeur Mobile",
-            "company": "Walt Disney Imagineering",
-            "description": "Développement d'une application mobile offline-first de levée des réserves pour Disneyland Paris, facilitant aux experts techniques la prise d'informations sur le terrain et fluidifiant la communication avec les services de maintenance pour la résolution des problèmes.",
+            "job": "Chef technique",
+            "company": "All Soft Multimedia",
+            "description": "Géré habilement des équipes tout en supervisant la conception, le design et le développement d'applications mobiles natives et multiplateformes. Orchestré le cycle de vie complet de l'application mobile, y compris le déploiement de l'API et du serveur, ainsi que le déploiement sur le Play Store et l'App Store. Pionnier dans la mise en œuvre de pipelines robustes GitLab CI/CD et maintenu l'intégrité de l'infrastructure de base de données.",
             "isPresent": true,
             "startYear": 2022,
             "endYear": 2023,
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Django",
-                "Python",
-                "PostgreSQL",
-                "SQLite",
+                "Java-Android",
+                "Ms Sql server",
+                "Laravel",
+                "Php",
+                "Spring boot",
+                "Angular",
                 "Docker"
             ]
         },
         {
-            "job": "Développeur Web Mobile",
-            "company": "Solutions Multi Techniques",
-            "description": "Développement d'une Progressive Web App à destination des techniciens en systèmes de sécurité, leur permettant de générer des devis complets au format PDF en y incluant des photos. Cela permet de délivrer les devis aux clients immédiatement après la visite.",
-            "startYear": 2022,
-            "startMonth": 1,
+            "job": "Développeur mobile",
+            "company": "All Soft Multimedia",
+            "description": "Développement et maintenance d'applications mobiles destinées aux systèmes ERP et de point de vente",
+            "startYear": 2021,
+            "startMonth": 6,
             "endYear": 2022,
-            "endMonth": 2,
+            "endMonth": 9,
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Firebase"
+                "Java-Android"
             ]
         },
         {
-            "job": "Développeur Web",
-            "company": "Association FAIRE",
-            "description": "Développement du site web de l'association, en collaboration au sein d'un groupe de développeurs. Ce site web offre à ses visiteurs la possibilité d'en savoir plus sur l'association et de la rejoindre en tant que membres.\nÀ ce jour, le site web a attiré plus de 10 000 visites.",
+            "job": "Développeur mobile indépendant",
+            "company": "Freelancer",
+            "description": "Développement et maintenance d'applications mobiles",
             "startYear": 2021,
-            "startMonth": 5,
-            "endYear": 2021,
-            "endMonth": 6,
+            "startMonth": 6,
+            "endYear": 2022,
+            "endMonth": 9,
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Firebase"
-            ],
-            "links": [
-                {
-                    "url": "https://www.association-faire.fr"
-                }
+                "Spring boot"
+            ]
+        },
+        {
+            "job": "Stage de fin d'études",
+            "company": "All Soft Multimedia",
+            "description": "Application de réalité augmentée permettant aux utilisateurs d'ameubler virtuellement leurs maisons avec des fonctionnalités telles que la mesure de distance, la construction d'escaliers et le placement automatisé avec un outil de détection d'objets.",
+            "startYear": 2021,
+            "startMonth": 2,
+            "endYear": 2021,
+            "endMonth": 6,
+            "technologies": [
+                "Unity",
+                "C#",
+                ".Net Framework"
             ]
         }
     ],
     "present": "Présent",
     "projects": [
         {
-            "name": "Portfolio",
-            "description": "Oui, il s'agit de CE portfolio ! \nCe projet adopte une architecture basée sur Riverpod en suivant une approche orientée fonctionnalités pour sa structure. Il est entièrement responsive, et prend en charge plusieurs thèmes ainsi que plusieurs langues.",
-            "url": "https://github.com/Aaldn/portfolio#readme",
+            "name": "ProWaiter",
+            "description": "Permet aux serveurs de prendre des commandes sur des tables spécifiques, inclut l'authentification, la gestion des licences, l'historique des commandes et les ajustements de paramètres.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.prowaiter&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/portfolio/main/assets/screenshots/web-light.png",
+            "screenshotUrl": "assets/screenshots/waiter.jpeg",
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Firebase"
-            ],
-            "links": [
-                {
-                    "url": "https://brittanychiang.com",
-                    "display": "Design inspiré par Brittany Chiang"
-                }
+                "BLoC",
+                "Laravel",
+                "Node js"
             ]
         },
         {
-            "name": "Learn Flow API",
-            "description": "Learn Flow est un projet de groupe visant à créer une solution de mise en relation d'élèves et d'enseignants. Cette API REST sert d'interface pour les différents clients du projet (Android, iOS et Web). Elle offre notamment des fonctionnalités d'authentification (JWT).",
-            "url": "https://github.com/Aaldn/learnflow-api#readme",
+            "name": "Buddy Scan",
+            "description": "En collaboration avec Digital Schwarz et Lidl, j'ai contribué au développement d'une application mobile qui s'intègre parfaitement à Buddy, un scanner de codes-barres compact.",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
             "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/learnflow-api/main/src/public/screenshots/screenshot.png",
             "technologies": [
-                "Node.js",
-                "Express",
-                "TypeScript",
-                "MongoDB",
-                "Docker"
+                "Flutter",
+                "Dart",
+                "BLoC",
+                "Spring boot"
             ]
         },
         {
-            "name": "Learn Flow Backoffice",
-            "description": "Il s'agit du back-office conçu pour les managers du projet Learn Flow. Cette Single-Page App leur permet de surveiller l'activité de leurs applications et utilisateurs (trafic, factures...).",
-            "url": "https://github.com/Aaldn/learnflow_backoffice#readme",
+            "name": "Pro Caisse Mobile",
+            "description": "Consultez les détails de votre point de vente par poste et plage horaire (bénéfices, marges, dépenses, ventes totales et tickets totaux), ainsi que les revenus et la trésorerie totale par session et par poste.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.mobile.procaisse&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/learnflow_backoffice/main/assets/screenshots/screenshot_login.png",
+            "screenshotUrl": "assets/screenshots/procaisse.jpeg",
             "technologies": [
                 "Flutter",
-                "Dart"
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         },
         {
-            "name": "GSB-Frais",
-            "description": "GSB-Frais est une application web de gestion des frais, développée pour les délégués médicaux et les comptables de l'entreprise fictive GSB. Elle facilite la saisie et la vérification des rapports mensuels des délégués médicaux, tout en permettant aux comptables de les traiter.",
-            "url": "https://github.com/Aaldn/GSB-Frais#readme",
+            "name": "Pro Resto Mobile",
+            "description": "Consultez la recette de la session en cours, les meilleures ventes par produit, par famille de produits et par utilisateur, les remises totales, la liste des offres, la liste des annulations et les ventes globales entre deux dates. Obtenez également l'état actuel des stocks.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.ProResto&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-Frais/master/screenshots/visiteur/0-Second%20Screenshot%20README.png",
+            "screenshotUrl": "assets/screenshots/proresto.jpg",
             "technologies": [
-                "Symfony",
-                "PHP",
-                "Bootstrap",
-                "MariaDB",
-                "Apache"
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         },
         {
-            "name": "GSB-RV-Visiteur-Serveur",
-            "description": "L'API REST du projet GSB sert d'interface pour les différents clients du projet (Android, Desktop et Web).",
-            "url": "https://github.com/Aaldn/GSB-RV-Visiteur-Serveur#readme",
+            "name": "Dux Mobile",
+            "description": "Provenant de Dux ERP, Dux Mobile est une application qui offre aux clients la gestion numérique des ressources, la production et la visualisation des données de revenus pour leurs entreprises.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.mobile.dux.dux&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-Visiteur-Serveur/master/screenshots/RESTClient.png",
+            "screenshotUrl": "assets/screenshots/dux.jpeg",
             "technologies": [
-                "Flask",
-                "Python",
-                "MariaDB",
-                "Docker"
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         },
         {
-            "name": "GSB-RV-DR",
-            "description": "GSB-RV-DR est une application de bureau conçue pour les délégués régionaux de l'entreprise fictive GSB. Elle permet de suivre les rapports de visite et de monitorer les activités des délégués médicaux. Les délégués régionaux peuvent accéder à la liste des rapports et y appliquer des filtres ou les trier.",
-            "url": "https://github.com/Aaldn/GSB-RV-DR#readme",
+            "name": "Pro Caisse Mobility",
+            "description": "Cette application permet la gestion des livraisons et des encaissements. Elle améliore la proximité avec le client et la réactivité des équipes, tout en optimisant le processus de gestion des clients et des magasins.",
+            "url": "https://play.google.com/store/apps/details?id=com.asmtunis.procaissemobility&hl=en&gl=US",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "assets/screenshots/mobility.jpg",
+            "technologies": [
+                "Android Native",
+                "Java",
+                "Retrofit",
+                "Java room local DB",
+                "Mvvm",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Pro Caisse Inventory",
+            "description": "Effectuez un inventaire et une vérification des totaux",
+            "url": "https://play.google.com/store/apps/details?id=com.asmtunis.proinventory&hl=en&gl=US",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "assets/screenshots/inventory.png",
+            "technologies": [
+                "Android Native",
+                "Java",
+                "Retrofit",
+                "Java room local DB",
+                "Mvvm",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Cover-ar",
+            "description": "En collaboration avec Cover3D (Belgique) Réalisation d'une application qui fournit des modèles 3D d'articles achetés par les clients et leur permet de visualiser et de modifier leurs produits dans une scène de réalité augmentée.",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
             "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-DR/master/screenshots/9-Consultation%20D%C3%A9taill%C3%A9e%20Rapport.png",
             "technologies": [
-                "JavaFX",
-                "Java",
-                "MariaDB"
+                "Unity",
+                "C#",
+                ".Net Framework",
+                "Spring boot"
+            ]
+        },
+        {
+            "name": "Poiana",
+            "description": "Application d'achat en ligne.",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-DR/master/screenshots/9-Consultation%20D%C3%A9taill%C3%A9e%20Rapport.png",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Mr-Bid",
+            "description": "Application d'enchères en direct en ligne avec achat intégré et paiement en ligne.",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-DR/master/screenshots/9-Consultation%20D%C3%A9taill%C3%A9e%20Rapport.png",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         }
     ],
@@ -201,7 +269,7 @@
         {
             "code": "fr",
             "name": "Français",
-            "nativeName": "Français"
+            "nativeName": "French"
         }
     ],
     "credit": {
@@ -213,11 +281,11 @@
     "homeSectionTitle": "Accueil",
     "aboutSectionTitle": "À propos",
     "aboutSectionTitleAlt": "À propos de moi",
-    "experienceSectionTitle": "Expériences",
+    "experienceSectionTitle": "Expérience",
     "projectsSectionTitle": "Projets",
     "resume": "CV",
     "downloadResume": "Télécharger le CV",
     "openResumeError": "Impossible d'ouvrir le CV",
-    "openUrlError": "Impossible d'ouvrir l'url",
+    "openUrlError": "Impossible d'ouvrir l'URL",
     "unknownLanguageError": "Langue inconnue"
 }

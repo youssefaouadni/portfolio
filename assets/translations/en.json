@@ -58,6 +58,8 @@
                 "Ms Sql server",
                 "Laravel",
                 "Php",
+                "Spring boot",
+                "Angular",
                 "Docker"
             ]
         },
@@ -76,119 +78,185 @@
             ]
         },
         {
-            "job": "Web Developer",
-            "company": "Association FAIRE",
-            "description": "Development of the association's website, in collaboration with a group of developers. It provides visitors with the opportunity to learn more about the association and become members.\nTo date, the website has attracted over 10,000 visits.",
+            "job": "FreeLance Mobile Developer",
+            "company": "FreeLancer",
+            "description": "Development and maintenance of mobile applications",
             "startYear": 2021,
-            "startMonth": 5,
-            "endYear": 2021,
-            "endMonth": 6,
+            "startMonth": 6,
+            "endYear": 2022,
+            "endMonth": 9,
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Firebase"
-            ],
-            "links": [
-                {
-                    "url": "https://www.association-faire.fr"
-                }
+                "Spring boot"
+            ]
+        },
+        {
+            "job": "Final year Internship",
+            "company": "All soft multimedia",
+            "description": "Augmented reality application that enables users to furnish their homes virtually with features like distance measurement stairs builder and Automated placement with object detection tool",
+            "startYear": 2021,
+            "startMonth": 2,
+            "endYear": 2021,
+            "endMonth": 6,
+            "technologies": [
+                "Unity",
+                "C#",
+                ".Net Framework"
             ]
         }
     ],
     "present": "Present",
     "projects": [
         {
-            "name": "Portfolio",
-            "description": "Yes, it's THIS portfolio! \nThis project follows a Riverpod-based Architecture, using a feature-first approach for its structure. It is fully responsive, and supports multiple themes and languages.",
-            "url": "https://github.com/Aaldn/portfolio#readme",
+            "name": "ProWaiter",
+            "description": "Allow servers to place orders on specific tables, include authentication, license management, order history and parameter adjustments.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.prowaiter&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/portfolio/main/assets/screenshots/web-light.png",
+            "screenshotUrl": "assets/screenshots/waiter.jpeg",
             "technologies": [
                 "Flutter",
                 "Dart",
-                "Firebase"
-            ],
-            "links": [
-                {
-                    "url": "https://brittanychiang.com",
-                    "display": "Design inspired by Brittany Chiang"
-                }
+                "BLoC",
+                "Laravel",
+                "Node js"
             ]
         },
         {
-            "name": "Learn Flow API",
-            "description": "Learn Flow is a collaborative project focused on creating a solution that connects students and teachers. This REST API serves as an interface for the project's various clients, including Android, iOS, and Web. It notably offers authentication capabilities (JWT).",
-            "url": "https://github.com/Aaldn/learnflow-api#readme",
+            "name": "Buddy Scan",
+            "description": "In collaboration with Digital Schwarz and Lidl, I helped develop a mobile app that integrates seamlessly with Buddy, a compact barcode scanner.",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
             "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/learnflow-api/main/src/public/screenshots/screenshot.png",
             "technologies": [
-                "Node.js",
-                "Express",
-                "TypeScript",
-                "MongoDB",
-                "Docker"
+                "Flutter",
+                "Dart",
+                "BLoC",
+                "Spring boot"
             ]
         },
         {
-            "name": "Learn Flow Backoffice",
-            "description": "This is the back-office build for managers in the Learn Flow project. This Single-Page App enables them to monitor activity such as user traffic and invoices associated with their applications and users.",
-            "url": "https://github.com/Aaldn/learnflow_backoffice#readme",
+            "name": "Pro Caisse Mobile",
+            "description": "View your POS details by station and time range (profits, margins, expenses, total sales and total tickets), as well as revenue and total cash per session and per station.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.mobile.procaisse&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/learnflow_backoffice/main/assets/screenshots/screenshot_login.png",
+            "screenshotUrl": "assets/screenshots/procaisse.jpeg",
             "technologies": [
                 "Flutter",
-                "Dart"
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         },
         {
-            "name": "GSB-Frais",
-            "description": "The GSB-Frais project is a web-based expense management application developed for medical representatives and accountants at the fictional company GSB. It facilitates the entry and review of monthly reports by medical representatives, while enabling accountants to process them.",
-            "url": "https://github.com/Aaldn/GSB-Frais#readme",
+            "name": "Pro Resto Mobile",
+            "description": "View the recipe for the current session, best sales by product, by product family and by user, total discount, list of offers, list of cancellations and overall sales between two dates. Also get current stock status.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.ProResto&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-Frais/master/screenshots/visiteur/0-Second%20Screenshot%20README.png",
+            "screenshotUrl": "assets/screenshots/proresto.jpg",
             "technologies": [
-                "Symfony",
-                "PHP",
-                "Bootstrap",
-                "MariaDB",
-                "Apache"
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         },
         {
-            "name": "GSB-RV-Visiteur-Serveur",
-            "description": "The GSB project's REST API serves as an interface for various project clients, including Android, Desktop, and Web applications.",
-            "url": "https://github.com/Aaldn/GSB-RV-Visiteur-Serveur#readme",
+            "name": "Dux Mobile",
+            "description": "Coming from Dux ERP, Dux Mobile is an application that offers customers digital management of resources, production and visualization of revenue data for their companies.",
+            "url": "https://play.google.com/store/apps/details?id=tn.asm.mobile.dux.dux&hl=en&gl=US",
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
-            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-Visiteur-Serveur/master/screenshots/RESTClient.png",
+            "screenshotUrl": "assets/screenshots/dux.jpeg",
             "technologies": [
-                "Flask",
-                "Python",
-                "MariaDB",
-                "Docker"
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         },
         {
-            "name": "GSB-RV-DR",
-            "description": "The GSB project's REST API serves as an interface for various project clients, including Android, Desktop, and Web applications.",
-            "url": "https://github.com/Aaldn/GSB-RV-DR#readme",
+            "name": "Pro Caisse Mobility",
+            "description": "This application allows the management of deliveries and collections. It improves proximity to the customer and the responsiveness of the teams, while optimizing the customer and store management process.",
+            "url": "https://play.google.com/store/apps/details?id=com.asmtunis.procaissemobility&hl=en&gl=US",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "assets/screenshots/mobility.jpg",
+            "technologies": [
+                "Android Native",
+                "Java",
+                "Retrofit",
+                "Java room local DB",
+                "Mvvm",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Pro Caisse Inventory",
+            "description": "Perform inventory and tally check",
+            "url": "https://play.google.com/store/apps/details?id=com.asmtunis.proinventory&hl=en&gl=US",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "assets/screenshots/inventory.png",
+            "technologies": [
+                "Android Native",
+                "Java",
+                "Retrofit",
+                "Java room local DB",
+                "Mvvm",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Cover-ar",
+            "description": "En collaboration avec Cover3D (Belgium) Réalisation d'une application qui fournit des modèles 3D d'articles achetés par les clients et leur permet de visualiser et de modifier leurs produits dans une scène de réalité\naugmentée. " ,
             "iconCodePoint": "0xf09b",
             "iconFontFamily": "FontAwesomeBrands",
             "iconFontPackage": "font_awesome_flutter",
             "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-DR/master/screenshots/9-Consultation%20D%C3%A9taill%C3%A9e%20Rapport.png",
             "technologies": [
-                "JavaFX",
-                "Java",
-                "MariaDB"
+                "Unity",
+                "C#",
+                ".Net Framework",
+                "Spring boot"
+            ]
+        },
+        {
+            "name": "Poiana",
+            "description": "Application d'achat en ligne .  " ,
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-DR/master/screenshots/9-Consultation%20D%C3%A9taill%C3%A9e%20Rapport.png",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
+            ]
+        },
+        {
+            "name": "Mr-Bid",
+            "description": "Application d'enchères en direct en ligne avec achat intégré et paiement en ligne .  " ,
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "https://raw.githubusercontent.com/Aaldn/GSB-RV-DR/master/screenshots/9-Consultation%20D%C3%A9taill%C3%A9e%20Rapport.png",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "GetX",
+                "Laravel"
             ]
         }
     ],
@@ -206,8 +274,7 @@
     ],
     "credit": {
         "message": "Inspired by",
-        "to": "Aladdine Abdou",
-        "url": "https://aladdine.dev"
+        "to": "Youssef Aouadni"
     },
     "portfolio": "Portfolio",
     "homeSectionTitle": "Home",

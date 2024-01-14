@@ -1,3 +1,4 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -27,9 +28,19 @@ class IntroductionTablet extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          tr(LocaleKeys.name),
-          style: Theme.of(context).textTheme.displayLarge,
+        AnimatedTextKit(
+          animatedTexts: [
+            TypewriterAnimatedText(
+              tr(LocaleKeys.name),
+              textStyle: Theme.of(context).textTheme.displayLarge,
+              speed: const Duration(milliseconds: 2000),
+            ),
+          ],
+
+          totalRepeatCount: 4,
+          pause: const Duration(milliseconds: 1000),
+          displayFullTextOnTap: true,
+          stopPauseOnTap: true,
         ),
         gapH4,
         Row(
