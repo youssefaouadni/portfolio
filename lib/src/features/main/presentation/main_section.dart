@@ -35,17 +35,14 @@ class _MainSectionState extends ConsumerState<MainSection> {
       endDrawer: const MySafeArea(
         child: EndDrawer(),
       ),
-      body: MySafeArea(
+      body: const MySafeArea(
         child: Stack(
           children: [
-            const Responsive(
+            Responsive(
               desktop: MainDesktop(),
               tablet: MainTablet(),
             ),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: BottomBanner(bannerHeight: _bottomBannerHeight),
-            )
+
           ],
         ),
       ),

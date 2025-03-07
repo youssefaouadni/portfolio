@@ -15,4 +15,30 @@ class Contact with _$Contact {
 
   factory Contact.fromJson(Map<String, dynamic> json) =>
       _$ContactFromJson(json);
+
+  @override
+  // TODO: implement iconCodePoint
+  String? get iconCodePoint => throw UnimplementedError();
+
+  @override
+  // TODO: implement iconFontFamily
+  String? get iconFontFamily => throw UnimplementedError();
+
+  @override
+  // TODO: implement iconFontPackage
+  String? get iconFontPackage => throw UnimplementedError();
+
+  @override
+  Map<String, dynamic> toJson() {
+    // TODO: implement toJson
+    throw UnimplementedError();
+  }
+
+  @override
+  // TODO: implement tooltip
+  String? get tooltip => throw UnimplementedError();
+
+  @override
+  // TODO: implement url
+  String? get url => throw UnimplementedError();
 }

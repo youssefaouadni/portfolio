@@ -13,4 +13,22 @@ class Language with _$Language {
 
   factory Language.fromJson(Map<String, dynamic> json) =>
       _$LanguageFromJson(json);
+
+  @override
+  // TODO: implement code
+  String? get code => throw UnimplementedError();
+
+  @override
+  // TODO: implement name
+  String? get name => throw UnimplementedError();
+
+  @override
+  // TODO: implement nativeName
+  String? get nativeName => throw UnimplementedError();
+
+  @override
+  Map<String, dynamic> toJson() {
+    // TODO: implement toJson
+    throw UnimplementedError();
+  }
 }

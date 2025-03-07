@@ -12,4 +12,22 @@ class Resume with _$Resume {
   }) = _Resume;
 
   factory Resume.fromJson(Map<String, dynamic> json) => _$ResumeFromJson(json);
+
+  @override
+  // TODO: implement language
+  String? get language => throw UnimplementedError();
+
+  @override
+  // TODO: implement languageCode
+  String? get languageCode => throw UnimplementedError();
+
+  @override
+  Map<String, dynamic> toJson() {
+    // TODO: implement toJson
+    throw UnimplementedError();
+  }
+
+  @override
+  // TODO: implement url
+  String? get url => throw UnimplementedError();
 }

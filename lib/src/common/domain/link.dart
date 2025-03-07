@@ -11,4 +11,18 @@ class Link with _$Link {
   }) = _Link;
 
   factory Link.fromJson(Map<String, dynamic> json) => _$LinkFromJson(json);
+
+  @override
+  // TODO: implement display
+  String? get display => throw UnimplementedError();
+
+  @override
+  Map<String, dynamic> toJson() {
+    // TODO: implement toJson
+    throw UnimplementedError();
+  }
+
+  @override
+  // TODO: implement url
+  String? get url => throw UnimplementedError();
 }

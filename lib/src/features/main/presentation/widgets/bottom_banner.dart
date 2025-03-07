@@ -27,7 +27,7 @@ class BottomBanner extends ConsumerWidget {
           DefaultTextStyle(
             style: Theme.of(context).textTheme.bodyLarge!,
             child: Link(
-              url: tr(LocaleKeys.credit_url),
+              url: "",
               displayLink: tr(LocaleKeys.credit_to),
               underlined: true,
               hoverColor: Theme.of(context).colorScheme.onSurface,

@@ -1,7 +1,7 @@
 {
     "name": "Youssef Aouadni",
     "description": "Ingénieur en logiciel",
-    "subDescription": "Chef technique",
+    "subDescription": "Team Lead",
     "contacts": [
         {
             "tooltip": "LinkedIn",
@@ -45,12 +45,14 @@
     "aboutDescription": "Ingénieur en logiciel accompli avec un bilan éprouvé dans la création de solutions de haute qualité pour les applications mobiles natives et multiplateformes, ainsi que pour les applications web. Doté d'une compréhension approfondie des méthodologies de développement logiciel, j'apporte une expertise dans la traduction de concepts complexes en logiciels fonctionnels et conviviaux. Ma passion pour l'innovation et mon engagement envers l'excellence me poussent à livrer constamment des résultats impactants dans des environnements de développement dynamiques.",
     "experiences": [
         {
-            "job": "Chef technique",
+            "job": "Team lead",
             "company": "All Soft Multimedia",
             "description": "Géré habilement des équipes tout en supervisant la conception, le design et le développement d'applications mobiles natives et multiplateformes. Orchestré le cycle de vie complet de l'application mobile, y compris le déploiement de l'API et du serveur, ainsi que le déploiement sur le Play Store et l'App Store. Pionnier dans la mise en œuvre de pipelines robustes GitLab CI/CD et maintenu l'intégrité de l'infrastructure de base de données.",
-            "isPresent": true,
+            "isPresent": false,
             "startYear": 2022,
-            "endYear": 2023,
+            "startMonth": 10,
+            "endYear": 2025,
+            "endMonth": 4,
             "technologies": [
                 "Flutter",
                 "Dart",
@@ -232,6 +234,22 @@
             ]
         },
         {
+            "name": "Dr. Well",
+            "description": "A science-powered platform turning research into personalized, time-optimized routines—helping modern professionals and individuals with chronic conditions build high-impact self-care habits for sustained health and productivity." ,
+            "url": "https://play.google.com/store/apps/details?id=dr.well.app.dr_well_app_prod",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "assets/screenshots/drwell.jpeg",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Bloc",
+                "Spring boot",
+                "Angular"
+            ]
+        },
+        {
             "name": "Poiana",
             "description": "Application d'achat en ligne.",
             "iconCodePoint": "0xf09b",
@@ -274,8 +292,7 @@
     ],
     "credit": {
         "message": "Inspiré par",
-        "to": "Aladdine Abdou",
-        "url": "https://aladdine.dev"
+        "to": "Youssef Aouadni"
     },
     "portfolio": "Portfolio",
     "homeSectionTitle": "Accueil",

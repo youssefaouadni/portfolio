@@ -1,7 +1,7 @@
 {
     "name": "Youssef Aouadni",
     "description": "Software Engineer",
-    "subDescription": "Technical Lead",
+    "subDescription": "Team Lead",
     "contacts": [
         {
             "tooltip": "LinkedIn",
@@ -45,12 +45,14 @@
     "aboutDescription": "Accomplished Software Engineer with a proven track record in crafting high-quality solutions for Native and Cross-platform Mobile Applications, as well as web applications. Equipped with a deep understanding of software development methodologies, I bring expertise in translating intricate concepts into functional and user-friendly software. My passion for innovation and commitment to excellence drive me to consistently deliver impactful results in dynamic development environments.",
     "experiences": [
         {
-            "job": "Technical Lead",
+            "job": "Team Lead",
             "company": "All Soft Multimedia",
             "description": "Skillfully managed teams while overseeing the conception, design, and development of both native and cross-platform applications. Orchestrated the complete mobile application lifecycle, including API and server deployment, as well as deployment to the Play Store and App Store. Spearheaded the implementation of robust GitLab CI/CD pipelines and upheld the integrity of the database infrastructure.",
-            "isPresent": true,
+            "isPresent": false,
             "startYear": 2022,
-            "endYear": 2023,
+            "startMonth": 10,
+            "endYear": 2025,
+            "endMonth": 4,
             "technologies": [
                 "Flutter",
                 "Dart",
@@ -229,6 +231,22 @@
                 "C#",
                 ".Net Framework",
                 "Spring boot"
+            ]
+        },
+        {
+            "name": "Dr. Well",
+            "description": "A science-powered platform turning research into personalized, time-optimized routines—helping modern professionals and individuals with chronic conditions build high-impact self-care habits for sustained health and productivity." ,
+            "url": "https://play.google.com/store/apps/details?id=dr.well.app.dr_well_app_prod",
+            "iconCodePoint": "0xf09b",
+            "iconFontFamily": "FontAwesomeBrands",
+            "iconFontPackage": "font_awesome_flutter",
+            "screenshotUrl": "assets/screenshots/drwell.jpeg",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Bloc",
+                "Spring boot",
+                "Angular"
             ]
         },
         {
